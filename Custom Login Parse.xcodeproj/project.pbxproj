@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7967B85A1B5762C400A3DD73 /* InTheAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7967B8591B5762C400A3DD73 /* InTheAppViewController.swift */; };
 		7967B85C1B577BD800A3DD73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7967B85B1B577BD800A3DD73 /* Main.storyboard */; };
+		7967B8651B5798E700A3DD73 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7967B8631B5798E700A3DD73 /* TableViewCell.swift */; };
+		7967B8661B5798E700A3DD73 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7967B8641B5798E700A3DD73 /* TableViewCell.xib */; };
 		799119BF1B564436005FE83C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799119BE1B564436005FE83C /* AppDelegate.swift */; };
 		799119C21B564436005FE83C /* Custom_Login_Parse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 799119C01B564436005FE83C /* Custom_Login_Parse.xcdatamodeld */; };
 		799119C41B564436005FE83C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799119C31B564436005FE83C /* ViewController.swift */; };
@@ -48,6 +50,8 @@
 /* Begin PBXFileReference section */
 		7967B8591B5762C400A3DD73 /* InTheAppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InTheAppViewController.swift; sourceTree = "<group>"; };
 		7967B85B1B577BD800A3DD73 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7967B8631B5798E700A3DD73 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		7967B8641B5798E700A3DD73 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		799119B91B564436005FE83C /* Custom Login Parse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Login Parse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		799119BD1B564436005FE83C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		799119BE1B564436005FE83C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +159,8 @@
 				7967B85B1B577BD800A3DD73 /* Main.storyboard */,
 				79911A011B564D68005FE83C /* CustomLoginViewController.swift */,
 				7967B8591B5762C400A3DD73 /* InTheAppViewController.swift */,
+				7967B8631B5798E700A3DD73 /* TableViewCell.swift */,
+				7967B8641B5798E700A3DD73 /* TableViewCell.xib */,
 				799119C81B564436005FE83C /* Images.xcassets */,
 				799119CA1B564436005FE83C /* LaunchScreen.xib */,
 				799119C01B564436005FE83C /* Custom_Login_Parse.xcdatamodeld */,
@@ -269,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				799119CC1B564436005FE83C /* LaunchScreen.xib in Resources */,
+				7967B8661B5798E700A3DD73 /* TableViewCell.xib in Resources */,
 				799119C91B564436005FE83C /* Images.xcassets in Resources */,
 				7967B85C1B577BD800A3DD73 /* Main.storyboard in Resources */,
 			);
@@ -293,6 +300,7 @@
 				79911A021B564D68005FE83C /* CustomLoginViewController.swift in Sources */,
 				79911A041B564D9E005FE83C /* CustomSignUpViewController.swift in Sources */,
 				799119C21B564436005FE83C /* Custom_Login_Parse.xcdatamodeld in Sources */,
+				7967B8651B5798E700A3DD73 /* TableViewCell.swift in Sources */,
 				799119BF1B564436005FE83C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -33,16 +33,6 @@ class CustomLoginViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
     @IBAction func loginAction(sender: AnyObject) {
         var username = self.usernameField.text
         var password = self.passwordField.text
@@ -81,24 +71,5 @@ class CustomLoginViewController: UIViewController {
     @IBAction func signupAction(sender: AnyObject) {
         self.performSegueWithIdentifier("SIGNUP", sender: self)
     }
-    
-//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-//        if segue.identifier == "SHOW_LOGIN_PAGE" {
-//            let bikesForSaleVC = segue.destinationViewController as! InTheAppViewController
-//        }
-//    }
-    
-    
-//    func alertFail() {
-//        var alertFail = UIAlertController(title: "Login Error", message: "Either the password or username is incorrect", preferredStyle: .Alert)
-//        let OKAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
-//        alertFail.addAction(OKAction)
-//        self.presentViewController(alertFail, animated: true, completion: nil)
-//    }
-    
-    
-    
-    
-    
     
 }

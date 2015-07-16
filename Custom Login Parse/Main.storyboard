@@ -148,13 +148,38 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="M9n-Og-Rul">
+                                <rect key="frame" x="0.0" y="325" width="600" height="275"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="x3T-Z7-Wpz" customClass="TableViewCell" customModule="Custom_Login_Parse" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="x3T-Z7-Wpz" id="Cjk-Pr-jKE">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="KZv-ld-x65" id="QFK-ZX-kzQ"/>
+                                    <outlet property="delegate" destination="KZv-ld-x65" id="0DM-RJ-u8L"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="M9n-Og-Rul" secondAttribute="trailing" constant="-16" id="Jfn-Nd-nHh"/>
+                            <constraint firstItem="M9n-Og-Rul" firstAttribute="leading" secondItem="omL-Sy-9ea" secondAttribute="leadingMargin" constant="-16" id="SWf-fN-HAO"/>
+                            <constraint firstItem="Gfy-UX-Ug1" firstAttribute="top" secondItem="M9n-Og-Rul" secondAttribute="bottom" id="UHU-vO-awk"/>
+                            <constraint firstItem="M9n-Og-Rul" firstAttribute="top" secondItem="Xw7-qC-rfD" secondAttribute="bottom" constant="8" id="VBl-5H-EJY"/>
                             <constraint firstAttribute="centerX" secondItem="Xw7-qC-rfD" secondAttribute="centerX" id="cDL-3y-iD6"/>
                             <constraint firstAttribute="centerY" secondItem="Xw7-qC-rfD" secondAttribute="centerY" id="kUA-Uc-nJd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bikeTableView" destination="M9n-Og-Rul" id="A51-jL-dsP"/>
+                        <outlet property="intheappLabel" destination="Xw7-qC-rfD" id="MiM-eX-uNo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Xd-GU-Cov" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
